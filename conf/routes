@@ -1,0 +1,23 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+#login home page
+GET     /login                      controllers.HomeController.index
+#login action
+POST    /login                      controllers.Users.loginSubmit
+
+#sign up new user
+GET     /signup                     controllers.Users.signupPage
+POST    /signup                     controllers.Users.signup
+
+#logout
+GET     /logout                     controllers.Users.logout
+
+#order pizza action
+POST    /order                      controllers.HomeController.order
+#get in order pizza page
+GET     /order                      controllers.HomeController.orderIndex
+
+#view order page
+GET     /viewOrder                  controllers.HomeController.viewOrder

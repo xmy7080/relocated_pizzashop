@@ -1,0 +1,63 @@
+This is the pizza shop application
+
+=================================
+this application using h2 built in database, in this case, upon running, browser will prompt the evolutions to be applied.please apply it.
+
+basic logic:
+there are three presaved user(admin, bob, kate), there password is (1111,2222,3333),
+user admin can view all the orders taken today. while other users only can view theirs.
+
+new users are open to create, just navigate in sign up page and put username and password in.
+
+you can navigate back or signout at any point, using the bottom links.
+
+There are several demonstration files available in this template.
+
+Controllers
+===========
+
+- HomeController.java:
+
+  handle the login home page render, and order related page and actions
+
+- Users.java
+  
+  handle all logout, new user sign up page and actions
+
+- AsyncController.java:
+
+  pizza shop actually not using it.
+  Shows how to do asynchronous programming when handling a request.
+
+- CountController.java:
+
+  pizza shop actually not using it.
+  Shows how to inject a component into a controller and use the component when
+  handling requests.
+
+Components
+==========
+
+- Module.java:
+
+  Shows how to use Guice to bind all the components needed by your application.
+
+- Counter.java:
+
+  An example of a component that contains state, in this case a simple counter.
+
+- ApplicationTimer.java:
+
+  An example of a component that starts when the application starts and stops
+  when the application stops.
+
+Filters
+=======
+
+- Filters.java:
+
+  Creates the list of HTTP filters used by your application.
+
+- ExampleFilter.java
+
+  A simple filter that adds a header to every response.

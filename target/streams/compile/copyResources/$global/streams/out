@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/ximuyuan/play-java/conf/application.conf,/Users/ximuyuan/play-java/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ximuyuan/play-java/conf/evolutions,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ximuyuan/play-java/conf/logback.xml,/Users/ximuyuan/play-java/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ximuyuan/play-java/conf/routes,/Users/ximuyuan/play-java/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ximuyuan/play-java/conf/evolutions/default,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ximuyuan/play-java/conf/evolutions/default/1.sql,/Users/ximuyuan/play-java/target/scala-2.11/classes/evolutions/default/1.sql)[0m
