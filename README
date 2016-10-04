@@ -1,6 +1,8 @@
 This is the pizza shop application
 
 =================================
+I am using activator UI to build and run this app.
+
 this application using h2 built in database, in this case, upon running, browser will prompt the evolutions to be applied.please apply it.
 
 basic logic:
