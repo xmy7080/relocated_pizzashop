@@ -35,19 +35,32 @@ Controllers
   Shows how to inject a component into a controller and use the component when
   handling requests.
 
+Models
+==========
+Users and Orders are created as two bean entities. for html form taking and sql save use.
+the ER diagram could be viewed in the docx file.
+
+Views
+==========
+these are the four scala templates that renders our four pages.
+
+Evolutions
+==========
+1.sql can be found at conf/evolutions/default, that defines what our database is looks like.
+
 Components
 ==========
 
 - Module.java:
-
+pizza shop actually not using it.
   Shows how to use Guice to bind all the components needed by your application.
 
 - Counter.java:
-
+pizza shop actually not using it.
   An example of a component that contains state, in this case a simple counter.
 
 - ApplicationTimer.java:
-
+pizza shop actually not using it.
   An example of a component that starts when the application starts and stops
   when the application stops.
 
@@ -55,9 +68,9 @@ Filters
 =======
 
 - Filters.java:
-
+pizza shop actually not using it.
   Creates the list of HTTP filters used by your application.
 
 - ExampleFilter.java
-
+pizza shop actually not using it.
   A simple filter that adds a header to every response.
